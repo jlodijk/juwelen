@@ -4,7 +4,7 @@ export const products = [
     name: "Cuff No. 01",
     price: 240,
     category: "armbanden",
-    img: "../assets/images/armbanden/p1.jpg",
+    img: "./assets/images/armbanden/p1.jpg",
     showImage: true,
   },
   {
@@ -12,7 +12,7 @@ export const products = [
     name: "Cuff No. 02",
     price: 260,
     category: "armbanden",
-    img: "../assets/images/armbanden/p2.jpg",
+    img: "./assets/images/armbanden/p2.jpg",
     showImage: true,
   },
   {
@@ -20,7 +20,7 @@ export const products = [
     name: "Cuff No. 03",
     price: 280,
     category: "armbanden",
-    img: "../assets/images/armbanden/p3.jpg",
+    img: "./assets/images/armbanden/p3.jpg",
     showImage: true,
   },
   {
@@ -28,7 +28,7 @@ export const products = [
     name: "Cuff No. 04",
     price: 295,
     category: "armbanden",
-    img: "../assets/images/armbanden/p4.jpg",
+    img: "./assets/images/armbanden/p4.jpg",
     showImage: true,
   },
   {
@@ -36,7 +36,7 @@ export const products = [
     name: "Pendulum No. 01",
     price: 320,
     category: "kettingen",
-    img: "../assets/images/kettingen/p5.jpg",
+    img: "./assets/images/kettingen/p5.jpg",
     showImage: true,
   },
   {
@@ -44,7 +44,7 @@ export const products = [
     name: "Pendulum No. 02",
     price: 310,
     category: "kettingen",
-    img: "../assets/images/kettingen/p6.jpg",
+    img: "./assets/images/kettingen/p6.jpg",
     showImage: true,
   },
   {
@@ -52,7 +52,7 @@ export const products = [
     name: "Pendulum No. 03",
     price: 330,
     category: "kettingen",
-    img: "../assets/images/kettingen/p7.jpg",
+    img: "./assets/images/kettingen/p7.jpg",
     showImage: true,
   },
   {
@@ -60,7 +60,7 @@ export const products = [
     name: "Pendulum No. 04",
     price: 350,
     category: "kettingen",
-    img: "../assets/images/kettingen/p.jpeg",
+    img: "./assets/images/kettingen/p.jpeg",
     showImage: true,
   },
   {
@@ -68,7 +68,7 @@ export const products = [
     name: "Loop Ring",
     price: 180,
     category: "ringen",
-    img: "../assets/images/ringen/p8.jpg",
+    img: "./assets/images/ringen/p8.jpg",
     showImage: true,
   },
   {
@@ -76,7 +76,7 @@ export const products = [
     name: "Double Ring",
     price: 190,
     category: "ringen",
-    img: "../assets/images/ringen/p10.jpg",
+    img: "./assets/images/ringen/p10.jpg",
     showImage: true,
   },
   {
@@ -84,7 +84,7 @@ export const products = [
     name: "Studio Ring",
     price: 210,
     category: "ringen",
-    img: "../assets/images/ringen/studio1.jpg",
+    img: "./assets/images/ringen/studio1.jpg",
     showImage: true,
   },
   {
@@ -92,7 +92,7 @@ export const products = [
     name: "Sculpt Ring",
     price: 225,
     category: "ringen",
-    img: "../assets/images/ringen/studio2.jpg",
+    img: "./assets/images/ringen/studio2.jpg",
     showImage: true,
   },
 ];

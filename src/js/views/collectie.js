@@ -17,7 +17,7 @@ export function Collectie(category = "") {
   return `
     <section class="flex flex-col items-center py-12 px-6 gap-10">
       <div class="text-center max-w-3xl">
-        <img src="../assets/images/logo.png" alt="Ldezen logo" class="w-20 h-20 mx-auto mb-6" />
+        <img src="./assets/images/logo.png" alt="Ldezen logo" class="w-20 h-20 mx-auto mb-6" />
         <p class="text-brand text-xs tracking-[0.5em] uppercase mb-2">LDezen Studio</p>
         <h1 class="text-3xl font-semibold mb-4">${getCategoryLabel(category)}</h1>
         <p class="text-neutral-700">
