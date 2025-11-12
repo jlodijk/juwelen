@@ -1,0 +1,18 @@
+{
+  "name": "juwelen",
+  "version": "1.0.0",
+  "description": "Juwelen Remy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx @tailwindcss/cli -i ./src/css/input.css -o ./dist/output.css --watch"
+  },
+  "keywords": [
+    "Juwelen"
+  ],
+  "author": "Hans Odijk",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.17"
+  }
+}

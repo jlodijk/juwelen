@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ldezen Armbanden</title>
+  <link href="../dist/output.css" rel="stylesheet" />
+</head>
+<body class="bg-white text-neutral-900 antialiased">
+  <div class="min-h-screen flex flex-col bg-[var(--color-neutraal)] text-[var(--color-secundair)]">
+    <header class="text-center py-4 text-sm uppercase font-medium bg-brand text-[var(--color-secundair)] tracking-[0.5em]">
+      LDEZEN STUDIO · ARCHITECTUUR & INTERIEUR
+    </header>
+    <main id="page" class="flex-1"></main>
+    <section class="px-6 py-12 bg-[var(--color-neutraal)]">
+      <div class="max-w-4xl mx-auto" id="order-summary"></div>
+    </section>
+    <footer class="bg-[#c69c4f] text-[var(--color-secundair)] px-6 py-12">
+      <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-sm text-[var(--color-secundair)]">
+        <div>
+          <p class="tracking-[0.5em] uppercase text-xs mb-3">Ldezen Studio</p>
+          <h3 class="text-xl font-semibold mb-3">Architectuur & Interieur</h3>
+          <p class="text-black/70">
+            Op maat gemaakte interieurs, objecten en installaties met een warme, sculpturale signatuur.
+          </p>
+        </div>
+        <div>
+          <h4 class="uppercase text-xs tracking-[0.3em] text-black/60 mb-3">Atelier</h4>
+          <p>Bloemgracht 86<br/>1015 TL Amsterdam</p>
+          <p class="mt-2">Bezoek op afspraak</p>
+        </div>
+        <div>
+          <h4 class="uppercase text-xs tracking-[0.3em] text-black/60 mb-3">Contact</h4>
+          <a href="mailto:studio@ldezen.com" class="block hover:text-black">studio@ldezen.com</a>
+          <a href="tel:+31201234567" class="block mt-1 hover:text-black">+31 (0)20 123 4567</a>
+        </div>
+        <div>
+          <h4 class="uppercase text-xs tracking-[0.3em] text-black/60 mb-3">Volg</h4>
+          <div class="flex flex-col gap-2">
+            <a href="#" class="hover:text-black">Instagram</a>
+            <a href="#" class="hover:text-black">Pinterest</a>
+            <a href="#" class="hover:text-black">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+      <div class="max-w-6xl mx-auto mt-10 text-xs text-black/70 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+        <p>© 2024 LDezen Studio. Alle rechten voorbehouden.</p>
+        <div class="flex gap-4">
+          <a href="#" class="hover:text-black">Privacy</a>
+          <a href="#" class="hover:text-black">Cookiebeleid</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <div id="order-toast" class="fixed top-16 right-6 z-50 pointer-events-none"></div>
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>
