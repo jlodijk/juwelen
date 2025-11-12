@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primair: #c69c4f;
+  --color-primair-hover: #b1843f;
+  --color-secundair: #111111;
+  --color-neutraal: #f5f5f5;
+
+  --company-name: "LDezen Studio";
+  --company-tagline: "Architectuur & Interieur";
+
+  /* Alias to let Tailwind generate text-brand / bg-brand utility classes */
+  --color-brand: var(--color-primair);
+}
+
+@layer base {
+  body {
+    background-color: var(--color-neutraal);
+    color: var(--color-secundair);
+  }
+}
